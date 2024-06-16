@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5223fc0e70bf3b428335e623ab09b88, type: 3}
+  m_Name: UnitDatabase
+  m_EditorClassIdentifier: 
+  allUnits:
+  - prefab: {fileID: -2104471309815612988, guid: 9313b15cee1e3b94ab1e9812fef49457, type: 3}
+    name: Swordman
+    icon: {fileID: 21300000, guid: bae784634d7ee0945ad1f73709e50fda, type: 2}
+    cost: 1
+  - prefab: {fileID: 2231926288968155078, guid: d9cd4eaf4e025ed49a833084d668f988, type: 3}
+    name: Archer
+    icon: {fileID: 21300000, guid: 954fae96fcef4ed46ac85119d8657985, type: 3}
+    cost: 2
+  - prefab: {fileID: 8724969267794819038, guid: 7c42b3e53f1315c49a8f56a85ab1e90a, type: 3}
+    name: Samurai
+    icon: {fileID: 21300000, guid: b1973578591a4084bbe76aca75268aa9, type: 2}
+    cost: 3
