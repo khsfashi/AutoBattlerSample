@@ -7,6 +7,8 @@ Auto Battler 장르의 게임을 제작하기 위한 샘플입니다.
 # APK 다운로드 링크
 [Google Drive](https://drive.google.com/file/d/1rnVWNNUdVPZO7p0AjeiO36-PEiwT2ogC/view?usp=drive_link)
 
+# Youtube 설명 영상
+<iframe width="2544" height="1161" src="https://www.youtube.com/embed/W8V9LDE2Cvk" title="유니티 2D - Auto Battler Sample Project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # 구현된 기능
 * 타이틀 화면
