@@ -1,6 +1,8 @@
 <p align="center">
   <img src="https://github.com/khsfashi/AutoBattlerSample/assets/55976865/e393413a-0ce5-40df-8f4a-9f9fcd5ed6ab">
 </p>
+
+
 # Auto Battler Sample
 Auto Battler 장르의 게임을 제작하기 위한 샘플입니다.
 2D 기반으로 타일 맵 위에서 유닛을 배치하고 자동으로 전투하게 합니다.
