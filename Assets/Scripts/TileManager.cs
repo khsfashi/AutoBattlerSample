@@ -20,9 +20,11 @@ public class TileManager : Manager<TileManager>
         base.Awake();
         allTiles = terrainBoards.GetComponentsInChildren<Tile>().ToList();
         InitializeGraph();
-        startPositionPerTeam = new Dictionary<Team, int>();
-        startPositionPerTeam.Add(Team.Team1, 0);
-        startPositionPerTeam.Add(Team.Team2, graph.nodes.Count - 1);
+        startPositionPerTeam = new Dictionary<Team, int>
+        {
+            { Team.Team1, 0 },
+            { Team.Team2, graph.nodes.Count - 1 }
+        };
     }
 
     /// <summary>

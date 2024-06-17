@@ -1,0 +1,5 @@
+D:/programming/Unity/AutoBattleSample/.utmp/RelWithDebInfo/246ta3q3/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/programming/Unity/AutoBattleSample/.utmp/RelWithDebInfo/246ta3q3/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+D:/programming/Unity/AutoBattleSample/.utmp/RelWithDebInfo/246ta3q3/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+D:/programming/Unity/AutoBattleSample/.utmp/RelWithDebInfo/246ta3q3/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+D:/programming/Unity/AutoBattleSample/.utmp/RelWithDebInfo/246ta3q3/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir
