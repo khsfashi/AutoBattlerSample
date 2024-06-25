@@ -7,16 +7,19 @@ using UnityEngine.UI;
 /// </summary>
 public class UIAnimation : MonoBehaviour
 {
+    public bool LoopAnimation = false;
     public Image image;
     public Sprite[] sprites;
-    public float speed = .02f;
+    public float speed = 0.02f;
+
     private int curSpriteIndex;
-    Coroutine animationCoroutine;
-    bool isDone;
+    private Coroutine animationCoroutine;
+    private bool isDone;
 
     public void Func_PlayUIAnim()
     {
         isDone = false;
+        curSpriteIndex = 0;
         animationCoroutine = StartCoroutine(Func_PlayAnimUI());
     }
 
@@ -32,6 +35,7 @@ public class UIAnimation : MonoBehaviour
 
     IEnumerator Func_PlayAnimUI()
     {
+        image.sprite = sprites[curSpriteIndex++];
         yield return new WaitForSeconds(speed);
         if (image == null)
         {
@@ -39,12 +43,13 @@ public class UIAnimation : MonoBehaviour
         }
         if (curSpriteIndex >= sprites.Length)
         {
-            isDone = true;
+            if (!LoopAnimation)
+            {
+                isDone = true;
+                yield break;
+            }
             curSpriteIndex = 0;
-            yield break;
         }
-        image.sprite = sprites[curSpriteIndex];
-        curSpriteIndex += 1;
         if (isDone == false)
             animationCoroutine = StartCoroutine(Func_PlayAnimUI());
     }
