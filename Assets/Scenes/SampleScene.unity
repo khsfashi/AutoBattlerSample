@@ -8613,7 +8613,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1996231828}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 6f0b71ceed3b506429522e68f770c90d, type: 2}
   m_CullingMode: 0
@@ -8639,6 +8639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1041b196a0cadc84fb7a29e82b44b8de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LoopAnimation: 0
   image: {fileID: 1996231831}
   sprites:
   - {fileID: 21300000, guid: aebeab716d07a4a0584a05bca757ed93, type: 3}
@@ -9108,6 +9109,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1582341327}
     m_Modifications:
+    - target: {fileID: 190440717743365100, guid: 7f5062f7476ba244d837167b79863057, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 896178558175983036, guid: 7f5062f7476ba244d837167b79863057, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 594
